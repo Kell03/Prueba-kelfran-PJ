@@ -55,7 +55,7 @@ Facturas
 
                                               	@csrf
 
-                                              	 <a href="#" onclick="this.forms['form2'].submit()"data-toggle="tooltip" data-bs-placement="top" title="Verificar"> 
+                                              	 <a href="#" onclick='this.parentNode.submit(); return false;' data-toggle="tooltip" data-bs-placement="top" title="Verificar"> 
                                                <i class="fa-solid fa-circle-check"></i></a>
                                               	
 
