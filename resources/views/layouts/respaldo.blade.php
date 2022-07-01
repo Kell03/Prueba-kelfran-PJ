@@ -40,6 +40,7 @@
 
 
      display: inline-block;
+    padding:8px;
     border: 1px solid #dedede;
    
 
@@ -617,6 +618,7 @@
                 @show
                     
             </div>
+        </div>
     
     
     <div class="content">
